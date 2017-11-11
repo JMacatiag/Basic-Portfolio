@@ -71,6 +71,40 @@ h1 {
 
 }
 
+.portfolio-body {
+	width: 650px;
+	margin-top: 20px;
+	margin-left: 20%;
+	background-color: #ffffff;
+	float: left;
+	margin-bottom: 30px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #cccccc;
+}
+
+#archway {
+	float: left;
+	width: 640px;
+}
+
+#food {
+	float: left;
+	width: 640px;
+}
+
+#music {
+	float: left;
+}
+
+#sports {
+	float: left;
+}
+
+#tech {
+	float:left;
+}
+
 #name-input {
 	margin-left: 20px;
 	width: 600px;
