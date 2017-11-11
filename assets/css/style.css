@@ -1,5 +1,13 @@
 body {
 	background-color: lightgrey;
+	color: #777777;
+
+}
+
+p {
+	font-size: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .content-area {
@@ -26,7 +34,7 @@ body {
 #top-links {
 	float: right;
 	background-color:white;
-	margin-right: 30%;
+	margin-right: 25%;
 	padding-top:40px;
 }
 
@@ -44,38 +52,84 @@ h1 {
 	background-color: #ffffff;
 	float: left;
 	margin-bottom: 30px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #cccccc;
 
+}
+
+.contact-body {
+	width: 650px;
+	margin-top: 20px;
+	margin-left: 20%;
+	background-color: #ffffff;
+	float: left;
+	margin-bottom: 30px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #cccccc;
+
+}
+
+#name-input {
+	margin-left: 20px;
+	width: 600px;
+}
+
+#email-input {
+	margin-left: 20px;
+	width: 600px;
+}
+
+#message-input {
+	margin-left: 20px;
+	width: 600px;
+}
+
+#submit{
+	background-color: #4aaaa5;
+	width: 80px;
+	color: #ffffff;
+	margin-left: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+.connections {
+	padding-left: 20px;
+	width: 270px;
+	margin-top: 20px;
+	margin-left: 100px;
+	background-color: #ffffff;
+	float:left;
+	padding-bottom: 50px;
+	padding-right: 10px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #cccccc;
 }
 
 #me {
 	clear:both;
 	padding-left: 20px;
 	float: left;
-} 
-
-p {
-	float: left;
-}
-
-#text {
-	float:left;
-	padding-left: 20px;
 	padding-right: 20px;
-}
-
-.connections {
-	padding-left: 20px;
-	width: 270px;
-	margin-top: 20px;
-	margin-left: 20px;
-	background-color: #ffffff;
-	float:left;
-}
+} 
+ .footer-heading {
+ 	background-color: #4aaaa5;
+ 	height: 10px;
+ 	margin-top: 0;
+ }
 
 .footer {
 	clear: both;
 	overflow: auto;
-	color: white;
+	color: #777777;
 	text-align: center;
 	background-color: #666666;
+	margin-top:20px;
+	
 }
